@@ -1,0 +1,12 @@
+import pyautogui
+import cv2
+
+x = pyautogui.position()
+print (x)
+
+y = pyautogui.locateOnScreen('likeinsta.png')
+
+
+
+print (y)
+print (y)
